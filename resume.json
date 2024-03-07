@@ -7,7 +7,7 @@
     "phone": "+56966020985",
     "url": "",
     "summary": "Soy un desarrollador de software con tres años de experiencia, con un enfoque principal en el desarrollo Front-End. Durante mi carrera profesional, he dedicado mi tiempo al desarrollo de aplicaciones web y móviles, así como a la creación de API Rest. Mi experiencia también abarca proyectos serverless y la integración con aplicaciones de terceros.",
-    "summary_2": "Me apasiona enfrentar nuevos desafíos y trabajar en equipo para encontrar soluciones innovadoras. Estoy constantemente buscando oportunidades para mejorar mis habilidades y mantenerme al día con las últimas tendencias y tecnologías en el mundo del desarrollo de software.",
+    "summary_2": "Mi objetivo es seguir desafiándome y contribuir al éxito de proyectos ambiciosos mientras continúo aprendiendo y creciendo profesionalmente.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -36,9 +36,13 @@
       "url": "https://lomi.cl",
       "startDate": "2022-02-01",
       "endDate": "2024-01-30",
-      "summary": "ASDASDASD",
+      "summary": "Como desarrollador Front-End en LOMI, he contribuido al desarrollo de la aplicación móvil para comercio B2C, desde su concepción hasta su lanzamiento en Google Play Store y App Store. Mi experiencia incluye el diseño y la creación de diversos sistemas internos, como actualizaciones masivas para el control de stock, ofertas y precios de productos, así como la integración de sistemas de socios comerciales para mantener un stock en línea con ellos. Además, participé en la creación de una aplicación innovadora que permite dividir áreas de tiendas basadas en polígonos geográficos utilizando Google Maps.",
       "highlights": [
-        "Started the company"
+        "Responsable del desarrollo de la aplicación móvil para comercio B2C, desde la concepción hasta el lanzamiento en Google Play Store y App Store.",
+        "Diseñé y creé varios sistemas internos, destacando una actualización masiva para el control de stock, ofertas y precios de productos, mejorando la eficiencia operativa de la empresa.",
+        "Integré distintos sistemas de socios comerciales para mantener un stock en línea con ellos, facilitando la sincronización de inventarios y la gestión de pedidos.",
+        "Lideré la creación de una aplicación que permite dividir áreas de tiendas basadas en polígonos geográficos utilizando Google Maps, mejorando la experiencia del usuario y la gestión de espacios físicos.",
+        "Brindé apoyo y orientación a estudiantes en práctica, compartiendo conocimientos y fomentando el desarrollo profesional dentro del equipo."
       ]
     },
     {
