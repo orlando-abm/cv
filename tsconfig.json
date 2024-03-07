@@ -6,7 +6,7 @@
       "@layouts/*": ["./src/layouts/*"],
       "@components/*": ["./src/components/*"],
       "@icons/*": ["./src/components/icons/*"],
-      "@resume": ["./resume.json"]
+      "@resumeEs": ["./resume-es.json"]
     }
   }
 }

@@ -1,5 +1,11 @@
 ---
-import { basics } from '@resume'
+import { type Basics } from '../../types/resume.type'
+
+interface Props {
+    basics: Basics
+}
+
+const { basics } = Astro.props
 const { summary, summary_2 } = basics
 ---
 <div>

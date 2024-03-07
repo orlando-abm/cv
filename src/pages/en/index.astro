@@ -7,26 +7,26 @@ import Education from "@components/sections/Education.astro";
 import Experience from "@components/sections/Experience.astro";
 import Hero from "@components/sections/Hero.astro";
 import Skills from "@components/sections/Skills.astro";
-import { ui, resume } from '../i18n/ui'
+import { ui, resume } from '../../i18n/ui'
 import type { Basics} from "src/types/resume.type";
 
-const { es } = ui
-const { basics, work, education, skills }: { basics: Basics, work: any, education: any, skills: any  } = resume.es
+const { en } = ui
+const { basics, work, education, skills }: { basics: Basics, work: any, education: any, skills: any  } = resume.en
 ---
 
 <Layout title="Curriculum Orlando Bernales">
 	<main>
 		<Hero basics={basics}/>
-		<Section title={es["nav.about"]}>
+		<Section title={en["nav.about"]}>
 			<About basics={basics} />
 		</Section>
-		<Section title={es["nav.experience"]}>
+		<Section title={en["nav.experience"]}>
 			<Experience work={work} />
 		</Section>
-		<Section title={es["nav.education"]}>
+		<Section title={en["nav.education"]}>
 			<Education education={education}/>
 		</Section>
-		<Section title={es["nav.skills"]}>
+		<Section title={en["nav.skills"]}>
 			<Skills skills={skills}/>
 		</Section>
 	</main>

@@ -1,5 +1,11 @@
 ---
-import { work } from "@resume"
+import { type Work } from '../../types/resume.type.ts'
+
+interface Props{
+  work: Work[]
+}
+
+const { work } = Astro.props
 ---
 
 <ul>

@@ -1,0 +1,213 @@
+{
+    "basics": {
+        "name": "Orlando Bernales Moncada",
+        "label": "Full Stack Developer with 3 years of experience in hybrid web and mobile applications",
+        "image": "",
+        "email": "Obernalesm@gmail.com",
+        "phone": "+56966020985",
+        "url": "",
+        "summary": "I am a software developer with three years of experience, focusing primarily on Front-End development. Throughout my professional career, I have dedicated my time to developing web and mobile applications, as well as creating Rest APIs. My experience also encompasses serverless projects and integration with third-party applications.",
+        "summary_2": "My goal is to continue challenging myself and contributing to the success of ambitious projects while continuing to learn and grow professionally.",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Viña del Mar",
+            "countryCode": "CL",
+            "countryName": "Chile",
+            "region": "Valparaíso"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "orlando-bernales-moncada",
+                "url": "https://www.linkedin.com/in/orlando-bernales-moncada-519209206"
+            },
+            {
+                "network": "GitHub",
+                "username": "Obernalesm",
+                "url": "https://github.com/orlando-abm"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "LOMI",
+            "position": "Front End Developer",
+            "url": "https://lomi.cl",
+            "startDate": "2022-02-01",
+            "endDate": "2024-01-30",
+            "summary": "As a Front-End Developer at LOMI, I contributed to the development of the B2C mobile application, from conception to launch on Google Play Store and App Store. My experience includes designing and creating various internal systems, such as massive updates for stock control, product offers, and prices, as well as integrating with commercial partners' systems to maintain stock levels in line with them. Additionally, I participated in the creation of an innovative application that allows dividing store areas based on geographic polygons using Google Maps.",
+            "highlights": [
+                "Responsible for developing the B2C mobile application, from conception to launch on Google Play Store and App Store.",
+                "Designed and created various internal systems, highlighting a massive update for stock control, product offers, and prices, improving the company's operational efficiency.",
+                "Integrated different commercial partner systems to maintain stock levels in line with them, facilitating inventory synchronization and order management.",
+                "Led the creation of an application that allows dividing store areas based on geographic polygons using Google Maps, improving user experience and physical space management.",
+                "Provided support and guidance to interns, sharing knowledge and fostering professional development within the team."
+            ]
+        },
+        {
+            "name": "University of Valparaíso",
+            "position": "Mobile Applications Developer",
+            "url": "https://uv.cl/",
+            "startDate": "2021-01-05",
+            "endDate": "2021-12-30",
+            "summary": "Mobile Applications Developer with experience at the University of Valparaíso, where I was responsible for developing and maintaining various mobile applications for students, staff, and applicants. My role encompassed both Front-End and Back-End development of these applications, as well as integration of the TUI card with Banco Santander's Spain development team. I worked closely with other internal and external teams to ensure the quality, security, and efficiency of mobile applications, thus improving user experience and meeting industry standards.",
+            "highlights": [
+                "Developed and maintained various mobile applications for the University of Valparaíso, aimed at students, staff, and applicants. Both Front-End and Back-End.",
+                "Actively participated in designing and implementing new features, as well as solving technical issues to enhance user experience and application efficiency.",
+                "Collaborated closely with Banco Santander's Spain development team to ensure smooth and secure integration of the TUI card with the university's mobile applications, complying with required security and privacy standards."
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "url": "https://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Awarded 'Volunteer of the Month'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Viña del Mar",
+            "url": "https://www.uvm.cl/",
+            "area": "Computer Engineering",
+            "studyType": "Engineering",
+            "startDate": "2016-03-01",
+            "endDate": "2020-12-30",
+            "score": "4.0",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "HTML",
+            "level": "Master",
+            "keywords": [
+                "Web Development",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "CSS",
+            "level": "Master",
+            "keywords": [
+                "Web Development",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "Angular",
+            "level": "Master",
+            "keywords": [
+                "Web Development",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "NodeJs",
+            "level": "Master",
+            "keywords": [
+                "Web Development",
+                "Backend"
+            ]
+        },
+        {
+            "name": "TypeScript",
+            "level": "Master",
+            "keywords": [
+                "Web Development",
+                "Backend"
+            ]
+        },
+        {
+            "name": "Firebase",
+            "level": "Master",
+            "keywords": [
+                "Web Development",
+                "Backend"
+            ]
+        },
+        {
+            "name": "Docker",
+            "level": "Master",
+            "keywords": [
+                "Web Development",
+                "Backend"
+            ]
+        },
+        {
+            "name": "Ionic",
+            "level": "Master",
+            "keywords": [
+                "Web Development",
+                "Frontend"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Project",
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Description...",
+            "highlights": [
+                "Won award at AIHacks 2016"
+            ],
+            "url": "https://project.com/"
+        }
+    ]
+}

@@ -1,3 +1,5 @@
+import resumenEs from 'resume-es.json'
+import resumenEn from 'resume-en.json'
 export const showDefaultLang = false;
 
 export const languages = {
@@ -6,6 +8,11 @@ export const languages = {
   };
 
 export const defaultLang = 'es';
+
+export const resume = {
+    es: resumenEs,
+    en: resumenEn
+}
 
 export const ui = {
     en: {

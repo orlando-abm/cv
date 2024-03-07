@@ -7,7 +7,11 @@ import Angular from "@icons/angular.astro";
 import Firebase from "@icons/firebase.astro";
 import Docker from "@icons/docker.astro";
 import Ionic from "@icons/ionic.astro";
-import { skills } from "@resume";
+import type { Skill } from "src/types/resume.type";
+
+interface Props {
+    skills: Skill[]
+}
 
 const SKILLS_ICONS: Record<string, any> = {
     HTML,
@@ -19,6 +23,8 @@ const SKILLS_ICONS: Record<string, any> = {
     Docker,
     Ionic,
 };
+
+const { skills } = Astro.props
 ---
 
 <ul>
