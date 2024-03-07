@@ -1,0 +1,215 @@
+{
+  "basics": {
+    "name": "Orlando Bernales Moncada",
+    "label": "Full Stack Developer con 3 años de experiencia en aplicaciones web y móviles híbridas",
+    "image": "",
+    "email": "Obernalesm@gmail.com",
+    "phone": "+56966020985",
+    "url": "",
+    "summary": "Soy un desarrollador de software con tres años de experiencia, con un enfoque principal en el desarrollo Front-End. Durante mi carrera profesional, he dedicado mi tiempo al desarrollo de aplicaciones web y móviles, así como a la creación de API Rest. Mi experiencia también abarca proyectos serverless y la integración con aplicaciones de terceros.",
+    "summary_2": "Me apasiona enfrentar nuevos desafíos y trabajar en equipo para encontrar soluciones innovadoras. Estoy constantemente buscando oportunidades para mejorar mis habilidades y mantenerme al día con las últimas tendencias y tecnologías en el mundo del desarrollo de software.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Viña del Mar",
+      "countryCode": "CL",
+      "countryName": "Chile",
+      "region": "Valparaíso"
+    },
+    "profiles": [
+      {
+        "network": "X",
+        "username": "john",
+        "url": "https://twitter.com/john"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "orlando-bernales-moncada",
+        "url": "https://www.linkedin.com/in/orlando-bernales-moncada/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Obernalesm",
+        "url": "https://lomi.cl"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "LOMI",
+      "position": "Desarrollador Front End",
+      "url": "https://lomi.cl",
+      "startDate": "2022-02-01",
+      "endDate": "2024-01-30",
+      "summary": "ASDASDASD",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Universidad de Valparaíso",
+      "position": "Desarrollador de aplicaciones móviles",
+      "url": "https://uv.cl/",
+      "startDate": "2021-01-05",
+      "endDate": "2021-12-30",
+      "summary": "Desarrollador de Aplicaciones Móviles con experiencia en la Universidad de Valparaíso, donde me encargué del desarrollo y mantenimiento de diversas aplicaciones móviles para estudiantes, funcionarios y postulantes. Mi papel abarcó tanto el desarrollo Front-End como el Back-End de estas aplicaciones, así como la integración de la tarjeta TUI con el equipo de desarrollo de España de Banco Santander. Trabajé en estrecha colaboración con otros equipos internos y externos para garantizar la calidad, seguridad y eficiencia de las aplicaciones móviles, mejorando así la experiencia del usuario y cumpliendo con los estándares de la industria.",
+      "highlights": [
+        "Desarrollé y mantuve diversas aplicaciones móviles para la Universidad de Valparaíso, destinadas a estudiantes, funcionarios y postulantes. Tanto Front-End como back-End",
+        "Participé activamente en el diseño y la implementación de nuevas funcionalidades, así como en la resolución de problemas técnicos para mejorar la experiencia del usuario y la eficiencia de las aplicaciones.",
+        "Colaboré estrechamente con el equipo de desarrollo de España de Banco Santander para asegurar una integración fluida y segura de la tarjeta TUI con las aplicaciones móviles de la universidad, cumpliendo con los estándares de seguridad y privacidad requeridos."
+
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Viña del Mar",
+      "url": "https://www.uvm.cl/",
+      "area": "Ingeniería Civil Informática.",
+      "studyType": "Ingeniería",
+      "startDate": "2016-03-01",
+      "endDate": "2020-12-30",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Fronted"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Fronted"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Fronted"
+      ]
+    },
+    {
+      "name": "NodeJs",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Firebase",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Ionic",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Fronted"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    }
+  ]
+}

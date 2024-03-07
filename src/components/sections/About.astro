@@ -1,0 +1,25 @@
+---
+import Section from "@components/Section.astro";
+
+import { basics } from '@resume'
+const { summary, summary_2 } = basics
+---
+
+<Section title="Sobre mí">
+    <div>
+        <p>
+            {summary}
+        </p>
+        <p>
+            {summary_2}
+        </p>
+    </div>
+</Section>
+
+<style>
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+</style>
