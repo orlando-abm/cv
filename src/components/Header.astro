@@ -30,8 +30,9 @@ const options = [
     const select = document.getElementById("select-lenguage");
     if (select) {
         select.addEventListener("change", (e) => {
-            const lang = e.target.value;
-            window.location = `/${lang}`;
+            if (!e.target) return
+            const lang = (e.target as HTMLSelectElement).value;
+            window.location.href = `/${lang}`;
         });
     }
 </script>
