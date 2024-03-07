@@ -1,0 +1,51 @@
+---
+import { getLangFromUrl } from "src/i18n/utils";
+const selectedLenguage = getLangFromUrl(Astro.url);
+
+const options = [
+    {
+        value: "es",
+        selected: selectedLenguage === "es",
+        text: selectedLenguage === "es" ? "Español" : "Spanish",
+    },
+    {
+        value: "en",
+        selected: selectedLenguage === "en",
+        text: selectedLenguage === "es" ? "Inglés" : "English",
+    },
+];
+---
+
+<header class="no-print">
+    <select id="select-lenguage" (onchange)="changeListener">
+        {
+            options.map((option) => (
+                <option value={option.value} selected={option.selected}>{option.text}</option>
+            ))
+        }
+    </select>
+</header>
+
+<script>
+    const select = document.getElementById("select-lenguage");
+    if (select) {
+        select.addEventListener("change", (e) => {
+            const lang = e.target.value;
+            window.location = `/${lang}`;
+        });
+    }
+</script>
+
+<style>
+    header {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 5rem;
+        margin-top: 2rem;
+    }
+
+    select {
+        border: none;
+    }
+
+</style>

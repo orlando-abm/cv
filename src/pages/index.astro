@@ -3,6 +3,7 @@ import Layout from "@layouts/Layout.astro";
 
 import Section from "@components/Section.astro";
 import About from "@components/sections/About.astro";
+import Header from "@components/Header.astro";
 import Education from "@components/sections/Education.astro";
 import Experience from "@components/sections/Experience.astro";
 import Hero from "@components/sections/Hero.astro";
@@ -15,6 +16,7 @@ const { basics, work, education, skills }: { basics: Basics, work: any, educatio
 ---
 
 <Layout title="Curriculum Orlando Bernales">
+	<Header />
 	<main>
 		<Hero basics={basics}/>
 		<Section title={es["nav.about"]}>
@@ -36,6 +38,7 @@ const { basics, work, education, skills }: { basics: Basics, work: any, educatio
 	main {
 		padding: 4rem;
 		margin: auto;
+		margin-top: -4rem;
 		width: 100%;
 	}
 </style>

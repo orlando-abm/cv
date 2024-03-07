@@ -9,12 +9,14 @@ import Hero from "@components/sections/Hero.astro";
 import Skills from "@components/sections/Skills.astro";
 import { ui, resume } from '../../i18n/ui'
 import type { Basics} from "src/types/resume.type";
+import Header from "@components/Header.astro";
 
 const { en } = ui
 const { basics, work, education, skills }: { basics: Basics, work: any, education: any, skills: any  } = resume.en
 ---
 
 <Layout title="Curriculum Orlando Bernales">
+	<Header />
 	<main>
 		<Hero basics={basics}/>
 		<Section title={en["nav.about"]}>
@@ -37,5 +39,6 @@ const { basics, work, education, skills }: { basics: Basics, work: any, educatio
 		padding: 4rem;
 		margin: auto;
 		width: 100%;
+		margin-top: -4rem;
 	}
 </style>
