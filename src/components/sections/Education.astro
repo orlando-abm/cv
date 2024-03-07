@@ -1,36 +1,32 @@
 ---
-import Section from "@components/Section.astro";
-
 import { education } from '@resume'
 ---
 
-<Section title="Educacion">
-    <ul>
-        {education.map(({ institution, startDate, endDate, area, url }) => {
-            const startYear = new Date(startDate).getFullYear()
-            const endYear = endDate != null ? new Date(endDate).getFullYear() : 'Actualidad'
-            const years = `${startYear} - ${endYear}`
-            return (
-                <li>
-                    <article>
-                        <header>
-                            <div>
-                                <h3>
-                                    <a href={url} title={`Ir a ${institution}`}>
-                                        {institution}
-                                    </a>
-                                </h3>
-                                <p>{area}</p>
-                            </div>
+  <ul>
+      {education.map(({ institution, startDate, endDate, area, url }) => {
+          const startYear = new Date(startDate).getFullYear()
+          const endYear = endDate != null ? new Date(endDate).getFullYear() : 'Actualidad'
+          const years = `${startYear} - ${endYear}`
+          return (
+              <li>
+                  <article>
+                      <header>
+                          <div>
+                              <h3>
+                                  <a href={url} title={`Ir a ${institution}`}>
+                                      {institution}
+                                  </a>
+                              </h3>
+                              <p>{area}</p>
+                          </div>
 
-                            <time>{years}</time>
-                        </header>
-                    </article>
-                </li>
-            )
-        })}
-    </ul>
-</Section>
+                          <time>{years}</time>
+                      </header>
+                  </article>
+              </li>
+          )
+      })}
+  </ul>
 
 <style>
   ul {

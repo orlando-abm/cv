@@ -1,20 +1,21 @@
 ---
-import Layout from '@layouts/Layout.astro';
+import Layout from "@layouts/Layout.astro";
 
-import About from '@components/sections/About.astro';
-import Education from '@components/sections/Education.astro';
-import Experience from '@components/sections/Experience.astro';
-import Hero from '@components/sections/Hero.astro';
-import Skills from '@components/sections/Skills.astro';
+import Section from "@components/Section.astro";
+import About from "@components/sections/About.astro";
+import Education from "@components/sections/Education.astro";
+import Experience from "@components/sections/Experience.astro";
+import Hero from "@components/sections/Hero.astro";
+import Skills from "@components/sections/Skills.astro";
 ---
 
 <Layout title="Curriculum Orlando Bernales">
 	<main>
 		<Hero />
-		<About />
-		<Experience />
-		<Education />
-		<Skills />
+		<Section title="Sobre mí"><About /></Section>
+		<Section title="Experiencia laboral"><Experience /></Section>
+		<Section title="Educacion"><Education /></Section>
+		<Section title="Habilidades"><Skills /></Section>
 	</main>
 </Layout>
 

@@ -1,42 +1,43 @@
 ---
-import Section from "../Section.astro";
-
 import HTML from "@icons/html.astro";
 import CSS from "@icons/css.astro";
 import TypeScript from "@icons/type.astro";
-import NodeJs from '@icons/node.astro';
-import Angular from '@icons/angular.astro';
-import Firebase from '@icons/firebase.astro';
-import Docker from '@icons/docker.astro';
-import Ionic from '@icons/ionic.astro';
+import NodeJs from "@icons/node.astro";
+import Angular from "@icons/angular.astro";
+import Firebase from "@icons/firebase.astro";
+import Docker from "@icons/docker.astro";
+import Ionic from "@icons/ionic.astro";
 import { skills } from "@resume";
 
 const SKILLS_ICONS: Record<string, any> = {
-  HTML,
-  CSS,
-  TypeScript,
-  NodeJs,
-  Angular,
-  Firebase,
-  Docker,
-  Ionic
-}
+    HTML,
+    CSS,
+    TypeScript,
+    NodeJs,
+    Angular,
+    Firebase,
+    Docker,
+    Ionic,
+};
 ---
 
-<Section title="Habilidades">
-    <ul>
-        {
-            skills.map(({ name }) => {
-                const Icon = SKILLS_ICONS[name];
-                return (
-                    <li>
-                        {Icon && <div class="no-print"><Icon /></div>} <span>{name}</span>
-                    </li>
-                );
-            })
-        }
-    </ul>
-</Section>
+<ul>
+    {
+        skills.map(({ name }) => {
+            const Icon = SKILLS_ICONS[name];
+            return (
+                <li>
+                    {Icon && (
+                        <div class="no-print">
+                            <Icon />
+                        </div>
+                    )}{" "}
+                    <span>{name}</span>
+                </li>
+            );
+        })
+    }
+</ul>
 
 <style>
     ul {
