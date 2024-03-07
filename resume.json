@@ -18,14 +18,9 @@
     },
     "profiles": [
       {
-        "network": "X",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      },
-      {
         "network": "LinkedIn",
         "username": "orlando-bernales-moncada",
-        "url": "https://www.linkedin.com/in/orlando-bernales-moncada/"
+        "url": "https://www.linkedin.com/in/orlando-bernales-moncada-519209206"
       },
       {
         "network": "GitHub",
