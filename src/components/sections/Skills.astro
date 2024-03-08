@@ -34,7 +34,7 @@ const { skills } = Astro.props
             return (
                 <li>
                     {Icon && (
-                        <div class="no-print">
+                        <div >
                             <Icon />
                         </div>
                     )}{" "}
@@ -50,6 +50,8 @@ const { skills } = Astro.props
         display: inline-flex;
         gap: 8px;
         flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
 
     li {
