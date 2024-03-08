@@ -1,5 +1,6 @@
 ---
 import { getLangFromUrl } from '../i18n/utils.ts'
+import '../styles/global.css'
 
 interface Props {
 	title: string;
@@ -30,6 +31,7 @@ const lang = getLangFromUrl(Astro.url);
 		font-family: Menlo, Monaco, Lucida Console, 'Courier New', Courier, monospace;
 		background-color: #fff;
 		letter-spacing: -0,025rem;
+		color: #000;
 	}
 
 	body,

@@ -1,0 +1,45 @@
+:root {
+    color-scheme:  light;
+}
+
+html.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.dark h2, .dark a {
+    color: #e2e2e2 !important;
+}
+
+
+.dark h4, .dark time {
+    color: #bcb3b3 !important;
+}
+
+.dark select {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+@media print {
+    :root {
+        color-scheme: light;
+    }
+
+    html.dark {
+        background-color: #fff;
+        color: #000;
+    }
+
+    .dark p {
+        color: #888;
+    }
+
+    .dark h2, .dark a {
+        color: #111 !important;
+    }
+
+    .dark h4, .dark time {
+        color: #222 !important;
+    }
+}
